@@ -5,4 +5,5 @@
   "search.exclude": {
     "**/node_modules": true
   }
+  ,"git.decorations.enabled": false
 }
