@@ -10,7 +10,7 @@ async function explainCode() {
   output.innerText = "Analyzing your code... 🤖";
 
   try {
-    const response = await fetch("http://localhost:3000/explain", {
+    const response = await fetch("/explain", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ code }),
